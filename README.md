@@ -20,4 +20,8 @@
 
 #### Use a debugger :heavy_check_mark:
 
-#### Use a debugger :heavy_check_mark:
+#### Use a formating tool :heavy_check_mark:
+
+#### Use a static analysers :heavy_check_mark:
+
+#### Naming :heavy_check_mark:
