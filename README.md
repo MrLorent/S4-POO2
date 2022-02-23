@@ -15,3 +15,7 @@
 - <kbd>ALT</kbd> + <kbd>O</kbd>     =    Switch between .hpp and .cpp
 - <kbd>CTRL</kbd> + <kbd>F</kbd>   =   Global research in file
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   =   Global research in project
+
+#### Use Git :heavy_check_mark:
+
+#### Use a debugger :heavy_check_mark:
