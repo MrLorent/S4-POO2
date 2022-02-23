@@ -7,12 +7,11 @@
 #### Install a compiler :heavy_check_mark:
 
 #### Use an IDE :heavy_check_mark:
-<ul>
-    <li><kbd>F2</kbd>  =   Rename Symbol</li>
-    <li><kbd>F12</kbd> =   Go to définition</li>
-    <li><kdb>CTRL</kdb> + <kdb>SHIFT</kdb> + <kdb>O</kdb>    =   Look for fonction/method in a file</li>
-    <li><kdb>CTRL</kdb> + <kdb>P</kdb>    =   Look for a specific file</li>
-    <li><kdb>ALT</kdb> + <kdb>O</kdb>     =    Switch between .hpp and .cpp</li>
-    <li><kdb>CTRL</kdb> + <kdb>F</kdb>   =   Global research in file</li>
-    <li><kdb>CTRL</kdb> + <kdb>SHIFT</kdb> + <kdb>F</kdb>   =   Global research in project</li>
-</ul>
+
+- <kbd>F2</kbd>     =   Rename Symbol
+- <kbd>F12</kbd>    =   Go to définition
+- <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>O</kbd>    =   Look for fonction/method in a file
+- <kbd>CTRL</kbd> + <kbd>P</kbd>    =   Look for a specific file
+- <kbd>ALT</kbd> + <kbd>O</kbd>     =    Switch between .hpp and .cpp
+- <kbd>CTRL</kbd> + <kbd>F</kbd>   =   Global research in file
+- <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   =   Global research in project
