@@ -15,6 +15,12 @@ endif()
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
 
+# Add all our src code directories to our dev environement
+include_directories(
+    src
+    src/myLib
+)
+
 # Add all the files
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS src/*)
 target_sources(${PROJECT_NAME} PRIVATE ${MY_SOURCES})
