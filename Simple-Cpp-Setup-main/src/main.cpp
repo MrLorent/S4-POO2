@@ -1,6 +1,7 @@
 #include <iostream>
+#include "random.hpp"
 
 int main()
 {
-    std::cout << "Hello World\n";
+    std::cout << rand(0, 10);
 }
