@@ -60,7 +60,7 @@ const auto window_config = WindowConfig {
 #### 6. DRY : don't repeat yourself :heavy_check_mark:
 #### 7. Enums :heavy_check_mark:
 #### 8. Split problems in small pieces :heavy_check_mark:
-**THINK SMALL !!** 
+**!! THINK SMALL !!** 
 #### 9. Composition over Inheritance :heavy_check_mark:
 
 ### :pill: LEVEL 3 :pill:
