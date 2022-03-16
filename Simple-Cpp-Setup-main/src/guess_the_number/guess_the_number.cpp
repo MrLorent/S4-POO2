@@ -1,4 +1,6 @@
 #include "guess_the_number.hpp"
+#include <iostream>
+#include "random.hpp"
 
 int get_int_from_user();
 
