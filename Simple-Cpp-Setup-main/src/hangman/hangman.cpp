@@ -28,5 +28,5 @@ const std::string pick_random_word()
         "Sosomaness",
     };
 
-    return words_list[rand(0, words_list.size() - 1)];
+    return words_list[rand<size_t>(0, words_list.size() - 1)];
 }

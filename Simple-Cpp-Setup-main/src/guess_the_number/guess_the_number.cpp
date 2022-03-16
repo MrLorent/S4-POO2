@@ -7,7 +7,7 @@
 void play_guess_the_number()
 {
     bool game_over       = false;
-    int  number_to_guess = rand(0, 100);
+    int  number_to_guess = rand<int>(0, 100);
 
     system("clear");
     std::cout << "#### GUESS THE NUMBER ####\n\n";
