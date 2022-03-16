@@ -1,21 +1,21 @@
-#include "guess_the_number.hpp"
 #include <iostream>
-#include "random.hpp"
 
-int get_int_from_user();
+#include "random.hpp"
+#include "user_input.hpp"
+#include "guess_the_number.hpp"
 
 void play_guess_the_number()
 {
-    system("clear");
     bool game_over       = false;
     int  number_to_guess = rand(0, 100);
 
-    std::cout << "> GUESS THE NUMBER <\n\n";
+    system("clear");
+    std::cout << "#### GUESS THE NUMBER ####\n\n";
     do {
-        int user_input = get_int_from_user();
+        int user_input = get_input_from_user<int>(INPUT_TYPE::INT);
 
         system("clear");
-        std::cout << "> GUESS THE NUMBER <\n\n";
+        std::cout << "#### GUESS THE NUMBER ####\n\n";
 
         if (user_input == number_to_guess) {
             std::cout << "Congratulation ! You guessed it !\n";
@@ -31,19 +31,4 @@ void play_guess_the_number()
     } while (!game_over);
 
     std::cout << "\nSee you ;)\n";
-}
-
-int get_int_from_user()
-{
-    int input;
-
-    while (std::cout << "Please enter a number :\n" && !(std::cin >> input)) {
-        std::cin.clear();                                                   //clear bad input flag
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
-        system("clear");
-        std::cout << "> GUESS THE NUMBER <\n\n";
-        std::cout << "Error : Invalid input type.\n";
-    }
-
-    return input;
 }

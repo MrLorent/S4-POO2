@@ -19,7 +19,9 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 include_directories(
     src
     src/myLib
+    src/interface
     src/guess_the_number
+    src/hangman
 )
 
 # Add all the files
