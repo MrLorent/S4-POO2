@@ -3,6 +3,6 @@
 
 int main()
 {
-    play_guess_the_number();
-    //play_hangman();
+    //play_guess_the_number();
+    play_hangman();
 }
