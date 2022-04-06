@@ -5,8 +5,10 @@
 #include "random.hpp"
 #include "user_input.hpp"
 
+#include "MysteryWordWithHoles.hpp"
 #include "hangman.hpp"
 
+/*------| PROTOTYPES |------*/
 const std::string pick_random_word();
 bool              player_is_alive(unsigned lives_count);
 bool              player_has_won(const std::vector<bool>& letters_guessed);
