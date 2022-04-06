@@ -14,7 +14,7 @@ AllowAllParametersOfDeclarationOnNextLine: 'true'
 AllowShortBlocksOnASingleLine: 'false'
 AllowShortCaseLabelsOnASingleLine: 'true'
 AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: 'true'
 AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: 'false'
 AlwaysBreakAfterReturnType: None
@@ -46,10 +46,10 @@ IndentWrappedFunctionNames: 'true'
 KeepEmptyLinesAtTheStartOfBlocks: 'false'
 Language: Cpp
 MaxEmptyLinesToKeep: '1'
-NamespaceIndentation: None
+NamespaceIndentation: All
 PointerAlignment: Left
 ReflowComments: 'true'
-SortIncludes: 'true'
+SortIncludes: 'false'
 SortUsingDeclarations: 'false'
 SpaceAfterCStyleCast: 'false'
 SpaceAfterLogicalNot: 'false'
