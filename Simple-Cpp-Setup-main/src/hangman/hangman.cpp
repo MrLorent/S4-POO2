@@ -65,6 +65,8 @@ void play_hangman()
     }
 }
 
+// FREE FUNSTIONS
+
 const std::string_view pick_random_word()
 {
     static constexpr std::array words_list = {
@@ -91,6 +93,7 @@ void remove_one_life(unsigned& lives_count)
     if (lives_count > 0) lives_count--;
 }
 
+// GRAPHICS
 void display_hangman_title()
 {
     system("clear");
@@ -114,7 +117,7 @@ void display_failure_feedback(const char wrong_letter)
 
 void display_congrats_message()
 {
-    std::cout << "Congratulations ! You found the mystery word !\n";
+    std::cout << "\nCongratulations ! You found the mystery word !\n";
 }
 
 void display_defeat_message(const std::string_view MYSTERY_WORD)
