@@ -35,7 +35,7 @@ void play_hangman()
     display_number_of_lives(lives_count);
     display_word_to_guess_with_holes(MYSTERY_WORD, letters_guessed);
     while (player_is_alive(lives_count) && !player_has_won(letters_guessed)) {
-        const char guess = get_input_from_user<char>(INPUT_TYPE::CHAR);
+        const char guess = get_input_from_user<char>();
         if (word_contains(guess, MYSTERY_WORD)) {
             /*---- GAME ENGINE ----*/
             marks_as_guessed(guess, letters_guessed, MYSTERY_WORD);

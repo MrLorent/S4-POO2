@@ -12,7 +12,7 @@ void play_guess_the_number()
     system("clear");
     std::cout << "#### GUESS THE NUMBER ####\n\n";
     do {
-        int user_input = get_input_from_user<int>(INPUT_TYPE::INT);
+        int user_input = get_input_from_user<int>();
 
         system("clear");
         std::cout << "#### GUESS THE NUMBER ####\n\n";
