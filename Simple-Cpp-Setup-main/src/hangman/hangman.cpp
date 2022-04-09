@@ -5,8 +5,8 @@
 #include "user_input.hpp"
 
 #include "MysteryWord.hpp"
-#include "hangman.hpp"
 #include "word_contains.hpp"
+#include "hangman.hpp"
 
 /*------| PROTOTYPES |------*/
 const std::string_view pick_random_word();

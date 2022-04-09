@@ -1,28 +1,31 @@
 #pragma once
-#define MENU
+#define MENU_HPP
 
-enum class COMMANDS : char {
-    GUESS_THE_NUMBER = '1',
-    HANGMAN          = '2',
-    QUIT             = 'Q',
+#include <map>
+
+enum class menu_options : char {
+    Guess_the_number = '1',
+    Hangman          = '2',
+    Quit             = 'q',
 };
 
-const std::map<COMMANDS, std::string> COMMANDS_LABELS = {
-    {COMMANDS::GUESS_THE_NUMBER, "Play Guess the Number"},
-    {COMMANDS::HANGMAN, "Play Hangman"},
-    {COMMANDS::QUIT, "Quit"},
+const std::map<menu_options, std::string> options_labels = {
+    {menu_options::Guess_the_number, "Play Guess the Number"},
+    {menu_options::Hangman, "Play Hangman"},
+    {menu_options::Quit, "Quit"},
 };
 
-const std::map<COMMANDS, std::string> COMMANDS_KEYS = {
-    {COMMANDS::GUESS_THE_NUMBER, "1"},
-    {COMMANDS::HANGMAN, "2"},
-    {COMMANDS::QUIT, "Q"},
+const std::map<menu_options, char> options_commands = {
+    {menu_options::Guess_the_number, '1'},
+    {menu_options::Hangman, '2'},
+    {menu_options::Quit, 'Q'},
 };
 
-constexpr std::initializer_list<COMMANDS> LIST_OF_COMMANDS = {
-    COMMANDS::GUESS_THE_NUMBER,
-    COMMANDS::HANGMAN,
-    COMMANDS::QUIT,
+constexpr std::initializer_list<menu_options> list_of_options = {
+    menu_options::Guess_the_number,
+    menu_options::Hangman,
+    menu_options::Quit,
 };
 
 void show_menu();
+char get_command_from_user();
