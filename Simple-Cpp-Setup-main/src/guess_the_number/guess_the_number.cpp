@@ -28,9 +28,8 @@ void play_guess_the_number()
             std::cout << "Smaller...\n";
         }
     } while (!game_over);
-
-    std::cout << "\nSee you ;)\n";
 }
+
 void display_guess_the_number_title()
 {
     system("clear");

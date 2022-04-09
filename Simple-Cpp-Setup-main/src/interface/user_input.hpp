@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+void wait_for_any_key_pressed();
+
 template<typename T>
 std::string get_input_instruction()
 {
