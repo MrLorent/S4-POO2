@@ -1,6 +1,8 @@
 #pragma once
 #define USER_INPUT
 
+#include <iostream>
+
 template<typename T>
 std::string get_input_instruction()
 {
