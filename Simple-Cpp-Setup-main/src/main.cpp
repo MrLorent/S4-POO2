@@ -1,5 +1,4 @@
 // INTERFACE
-#include "user_input.hpp"
 #include "menu.hpp"
 
 // GAMES
@@ -11,20 +10,7 @@ int main()
     bool quit = false;
     while (!quit) {
         show_menu();
-        char user_choice = get_input_from_user<char>();
-
-        while (!menu_command_contains(user_choice)) {
-            show_menu();
-
-            std::string error_message = "Error : ";
-            error_message += user_choice;
-            error_message += " isn't an option.";
-
-            std::cout << error_message + "\n";
-            user_choice = get_input_from_user<char>();
-        };
-
-        const char command = user_choice;
+        const char command = get_command_from_user();
 
         switch (command) {
         case static_cast<int>(menu_options::Guess_the_number):
@@ -38,5 +24,4 @@ int main()
             break;
         }
     }
-    std::cout << "See you ;)\n";
 }

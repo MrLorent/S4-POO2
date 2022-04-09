@@ -28,4 +28,4 @@ constexpr std::initializer_list<menu_options> list_of_options = {
 };
 
 void show_menu();
-bool menu_command_contains(const char command);
+char get_command_from_user();

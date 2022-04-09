@@ -1,8 +1,28 @@
 #include <iostream>
 
+#include "user_input.hpp"
 #include "menu.hpp"
 
+bool menu_command_contains(const char command);
 void display_menu_title();
+
+char get_command_from_user()
+{
+    char user_choice = get_input_from_user<char>();
+
+    while (!menu_command_contains(user_choice)) {
+        show_menu();
+
+        std::string error_message = "Error : ";
+        error_message += user_choice;
+        error_message += " isn't an option.";
+
+        std::cout << error_message + "\n";
+        user_choice = get_input_from_user<char>();
+    };
+
+    return std::tolower(user_choice);
+}
 
 bool menu_command_contains(const char command)
 {
