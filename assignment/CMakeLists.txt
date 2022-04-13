@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.20)
 
 project(SimpleCpp)
 add_executable(${PROJECT_NAME})
@@ -23,6 +23,10 @@ include_directories(
     src/guess_the_number
     src/hangman
 )
+
+# Add the p6 library
+add_subdirectory(${CMAKE_SOURCE_DIR}/third-party/p6)
+target_link_libraries(${PROJECT_NAME} PRIVATE p6::p6)
 
 # Add all the files
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS src/*)

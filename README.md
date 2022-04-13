@@ -1,6 +1,7 @@
 # ADVANCED ORIENTED OBJECT PROGRAMMING :computer:
 
 ## LESSON TRACKING :memo:
+</br>
 
 ### :pill: LEVEL 1 :pill:
 
@@ -22,6 +23,7 @@
 #### 7. Naming :heavy_check_mark:
 #### 8. Stack vs Heap :heavy_check_mark:
 #### 9. Consistency in style :heavy_check_mark:
+</br>
 
 ### :pill: LEVEL 2 :pill:
 
@@ -64,3 +66,5 @@ const auto window_config = WindowConfig {
 #### 9. Composition over Inheritance :heavy_check_mark:
 
 ### :pill: LEVEL 3 :pill:
+
+#### 15. Git submodules :heavy_check_mark:
