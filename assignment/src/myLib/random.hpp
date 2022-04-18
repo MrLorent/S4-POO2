@@ -10,7 +10,3 @@ T rand(T min, T max)
 
     return distribution(generator);
 }
-
-int head_or_tail();
-int throw_a_dice();
-int random_choose(std::vector<int> universe, std::vector<float> probability);
