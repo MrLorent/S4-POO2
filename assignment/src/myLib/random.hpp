@@ -1,3 +1,6 @@
+#pragma once
+#define RANDOM_HPP
+
 #include <time.h>
 #include <random>
 #include <vector>
