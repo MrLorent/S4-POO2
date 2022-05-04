@@ -1,3 +1,6 @@
 [submodule "assignment/third-party/p6"]
 	path = assignment/third-party/p6
 	url = https://github.com/JulesFouchy/p6
+[submodule "project"]
+	path = project
+	url = https://github.com/MrLorent/ADVENTURES
