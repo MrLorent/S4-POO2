@@ -69,4 +69,6 @@ const auto window_config = WindowConfig {
 
 #### 01. std::vector :heavy_check_mark:
 #### 15. Git submodules :heavy_check_mark:
+#### 21. Markdown :heavy_check_mark:
+#### 28. CMake :heavy_check_mark:
 #### 33. std::variant :heavy_check_mark:
