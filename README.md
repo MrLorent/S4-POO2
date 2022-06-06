@@ -3,7 +3,7 @@
 ## WORK DONE :coffee:
 
 ### assignment :file_folder:
-Folder containing the different exercice of the course realised during the lessons.
+Folder containing the different exercices of the course realised during the lessons.
 
 ### project :file_folder:
 Folder containing a project of mini console RPG, created to experiment on random phenomenoms.
