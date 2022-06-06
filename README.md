@@ -1,5 +1,13 @@
 # ADVANCED ORIENTED OBJECT PROGRAMMING :computer:
 
+## WORK DONE :coffee:
+
+### assignment :file_folder:
+Folder containing the different exercice of the course realised during the lessons.
+
+### project :file_folder:
+Folder containing a project of mini console RPG, created to experiment on random phenomenoms.
+
 ## LESSON TRACKING :memo:
 </br>
 
@@ -68,7 +76,25 @@ const auto window_config = WindowConfig {
 ### :pill: LEVEL 3 :pill:
 
 #### 01. std::vector :heavy_check_mark:
+#### 02. Minimize dependencies :heavy_check_mark:
+#### 03. Strong Types :heavy_check_mark:
+#### 04. Use Librairies :heavy_check_mark:
+#### 05. Range-based for loop :heavy_check_mark:
+#### 06. Testing :heavy_check_mark:
+#### 07. Lambda functions :heavy_check_mark:
+#### 08. Master your IDE :heavy_check_mark:
+#### 09. std::optional :heavy_check_mark:
+#### 10. Single Source of Truth :heavy_check_mark:
+#### 11. Code reviews :heavy_check_mark:
+#### 12. const :heavy_check_mark:
+#### 13. Documentation :heavy_check_mark:
+#### 14. Don't overfocus on performance :heavy_check_mark:
 #### 15. Git submodules :heavy_check_mark:
+#### 16. STL algorithms :heavy_check_mark:
+#### 17. assert :heavy_check_mark:
+#### 18. auto :heavy_check_mark:
 #### 21. Markdown :heavy_check_mark:
+#### 23. std::function :heavy_check_mark:
 #### 28. CMake :heavy_check_mark:
 #### 33. std::variant :heavy_check_mark:
+#### 36. Polymorphism :heavy_check_mark:
