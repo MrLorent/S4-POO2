@@ -22,6 +22,7 @@ include_directories(
     src/interface
     src/guess_the_number
     src/hangman
+    src/noughts_and_crosses
 )
 
 # Add the p6 library

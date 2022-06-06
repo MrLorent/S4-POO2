@@ -5,8 +5,8 @@
 
 ### :pill: LEVEL 1 :pill:
 
-#### 1. Install a compiler :heavy_check_mark:
-#### 2. Use an IDE :heavy_check_mark:
+#### 01. Install a compiler :heavy_check_mark:
+#### 02. Use an IDE :heavy_check_mark:
 
 - <kbd>F2</kbd>     =   Rename Symbol
 - <kbd>F12</kbd>    =   Go to définition
@@ -16,25 +16,25 @@
 - <kbd>CTRL</kbd> + <kbd>F</kbd>   =   Global research in file
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   =   Global research in project
 
-#### 3. Use Git :heavy_check_mark:
-#### 4. Use a debugger :heavy_check_mark:
-#### 5. Use a formating tool :heavy_check_mark:
-#### 6. Use a static analysers :heavy_check_mark:
-#### 7. Naming :heavy_check_mark:
-#### 8. Stack vs Heap :heavy_check_mark:
-#### 9. Consistency in style :heavy_check_mark:
+#### 03. Use Git :heavy_check_mark:
+#### 04. Use a debugger :heavy_check_mark:
+#### 05. Use a formating tool :heavy_check_mark:
+#### 06. Use a static analysers :heavy_check_mark:
+#### 07. Naming :heavy_check_mark:
+#### 08. Stack vs Heap :heavy_check_mark:
+#### 09. Consistency in style :heavy_check_mark:
 </br>
 
 ### :pill: LEVEL 2 :pill:
 
-#### 1. Make it work, then make it good :heavy_check_mark:
-#### 2. Prefer free functions :heavy_check_mark:
-#### 3. Design cohesive classes :heavy_check_mark:
+#### 01. Make it work, then make it good :heavy_check_mark:
+#### 02. Prefer free functions :heavy_check_mark:
+#### 03. Design cohesive classes :heavy_check_mark:
 
 - Class = everything is private with getters and setters
 - Struct = everithnig is public
 
-#### 4. Use struct to group data :heavy_check_mark:
+#### 04. Use struct to group data :heavy_check_mark:
 Clean instanciation of a struct:
 ```cpp
 // DECLARATION
@@ -58,13 +58,17 @@ const auto window_config = WindowConfig {
 };
 ```
 
-#### 5. Write small functions :heavy_check_mark:
-#### 6. DRY : don't repeat yourself :heavy_check_mark:
-#### 7. Enums :heavy_check_mark:
-#### 8. Split problems in small pieces :heavy_check_mark:
+#### 05. Write small functions :heavy_check_mark:
+#### 06. DRY : don't repeat yourself :heavy_check_mark:
+#### 07. Enums :heavy_check_mark:
+#### 08. Split problems in small pieces :heavy_check_mark:
 **!! THINK SMALL !!** 
-#### 9. Composition over Inheritance :heavy_check_mark:
+#### 09. Composition over Inheritance :heavy_check_mark:
 
 ### :pill: LEVEL 3 :pill:
 
+#### 01. std::vector :heavy_check_mark:
 #### 15. Git submodules :heavy_check_mark:
+#### 21. Markdown :heavy_check_mark:
+#### 28. CMake :heavy_check_mark:
+#### 33. std::variant :heavy_check_mark:
